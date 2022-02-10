@@ -28,7 +28,7 @@ ___
 
 &emsp;<strong>1.</strong>&nbsp; Начальные два PostgresOperator-ы были созданы, для того чтобы проверить присутствие
 схемы и таблицы, при отсутствие создать их.</br>
-&emsp;<strong>2.</strong>&nbsp; Таски parse_historical_info, parse_latest_info выполняют скрапинг данных с API.
+&emsp;<strong>2.</strong>&nbsp; Таски parse_historical_info, parse_latest_info выполняют скрапинг данных с API.</br>
 &emsp;<strong>3 .</strong>&nbsp; Таск write_to_db с помощью XCOM получает данные с прошлых двух тасков, и записывает или
 обновляет таблицу btc_to_dollar.
 
