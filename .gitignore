@@ -1,2 +1,3 @@
-/logs
-/plugins
+\logs
+\plugins
+\__pycache__
